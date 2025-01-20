@@ -1,13 +1,13 @@
 {
   "name": "html-and-css-practice",
   "version": "1.0.0",
-  "homepage": "https://github.com/gvrshnn/hh-school-practice",
+  "homepage": "https://github.com/gvrshnn/smile-shop",
   "repository": "",
   "author": "Roman Dmiterko",
   "license": "MIT",
   "scripts": {
     "dev": "parcel *.html",
-    "build": "parcel build *.html --public-url './'",
+    "build": "parcel build *.html --public-url ./",
     "deploy": "yarn build && gh-pages -d dist",
     "format": "bash tools/format.sh",
     "postinstall": "cp tools/githooks/* .git/hooks || true",
