@@ -426,13 +426,13 @@ h4 {
   margin-right: 0px;
 }
 .header__button_search {
-  background: url('./assets/search.svg');
+  background: url('/assets/search.svg');
 }
 .header__button_menu {
-  background: url('./assets/menu.svg');
+  background: url('/assets/menu.svg');
 }
 .header__button_profile {
-  background: url('./assets/profile.svg');
+  background: url('/assets/profile.svg');
 }
 .menu-desktop {
   display: none;
