@@ -426,13 +426,13 @@ h4 {
   margin-right: 0px;
 }
 .header__button_search {
-  background: url('/assets/search.svg');
+  background: url('../assets/search.svg');
 }
 .header__button_menu {
-  background: url('/assets/menu.svg');
+  background: url('../assets/menu.svg');
 }
 .header__button_profile {
-  background: url('/assets/profile.svg');
+  background: url('../assets/profile.svg');
 }
 .menu-desktop {
   display: none;
@@ -471,7 +471,7 @@ h4 {
   height: 30px;
   border: none;
   background: transparent;
-  background-image: url('/assets/search.svg');
+  background-image: url('../assets/search.svg');
 }
 .button-sigin {
   height: 36px;
@@ -515,7 +515,7 @@ h4 {
   left: 10px;
   width: 30px;
   height: 30px;
-  background-image: url('/assets/sale.png');
+  background-image: url('../assets/sale.png');
   background-size: cover;
 }
 .order {
@@ -619,7 +619,7 @@ h4 {
   margin-top: 15px;
 }
 .logo {
-  display: none;
+  display: flex;
   height: 45px;
 }
 .hh_logo {
@@ -634,6 +634,10 @@ h4 {
   }
   .container {
     padding: 0 35px;
+  }
+  .logo {
+    display: flex;
+    height: 45px;
   }
 }
 @media (min-width: 930px) {
